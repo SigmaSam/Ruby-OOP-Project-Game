@@ -7,8 +7,6 @@ describe Board do
   let (:array_loser) {[1, 3, 7]}
   let (:arr_player) {}
 
-
-
   describe "#create_board" do
     it "returns board" do
       expect(board.create_board).to eql([1, 2, 3, 4, 5, 6, 7, 8, 9])
@@ -25,7 +23,6 @@ describe Board do
       end
     end
   end
-
   describe "#validate_turn" do
   
     context 'Check if position is valid' do
