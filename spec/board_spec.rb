@@ -3,6 +3,11 @@ require_relative '../lib/player.rb'
 describe Board do
   let (:board) {Board.new}
   let (:player1) {Player.new('Mercedes', 'X')}
+  let (:array_win) {[1, 2, 3]}
+  let (:array_loser) {[1, 3, 7]}
+  let (:arr_player) {}
+
+
 
   describe "#create_board" do
     it "returns board" do
@@ -33,8 +38,6 @@ describe Board do
         board.place_symbol(1, player1)
         expect(board.validate_turn(1)).to be(false)
       end
-      
-
     end
   end
 
@@ -47,4 +50,29 @@ describe Board do
     end
   end
 
+  describe '#check_win' do
+    it 'Returns true when there is a winner' do
+      expect(board.check_win(array_win)).to be(true)      
+    end
+
+    it 'Returns true when there is not a winner' do
+      expect(board.check_win(array_loser)).to be(false)      
+    end
+  end
+
+  describe '#winner?' do
+    it "returns true if a player wins" do
+      for i in (1..3) do
+        player1.array = i
+      end
+      expect(board.winner?(player1)).to be(true)
+    end
+
+    it "returns false if a player loses" do
+      for i in (2..4) do
+        player1.array = i
+      end
+      expect(board.winner?(player1)).to be(false)
+    end    
+  end
 end
