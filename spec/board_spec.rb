@@ -7,13 +7,8 @@ describe Board do
   let(:array_loser) { [1, 3, 7] }
   let(:arr_player) {}
 
-<<<<<<< HEAD
   describe '#create_board' do
     it 'returns board' do
-=======
-  describe "#create_board" do
-    it "returns board" do
->>>>>>> Rspec_feature
       expect(board.create_board).to eql([1, 2, 3, 4, 5, 6, 7, 8, 9])
     end
   end
@@ -28,13 +23,8 @@ describe Board do
       end
     end
   end
-<<<<<<< HEAD
 
   describe '#validate_turn' do
-=======
-  describe "#validate_turn" do
-  
->>>>>>> Rspec_feature
     context 'Check if position is valid' do
       it 'return false is position is out of boundaries' do
         board.create_board
