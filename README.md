@@ -13,6 +13,12 @@ In this project, we're required to create a Tic Tac Toe Game using Ruby with OOP
 
 > The main goal of this project is to ensure the mastery of the methods ruby provides and to learn how to replicate them using basic coding knowledge.
 
+
+### In order to run the test cases for the methods, Please follow these steps
+
+- `gem install rspec`
+- Run `rspec` to see your testcases whether they are passed or failed
+
 ## How to play:
 
 ### Tic Tac Toe game rules:
@@ -79,11 +85,11 @@ If you don't get that result, follow this [link](https://www.ruby-lang.org/en/do
 - Twitter: [@victorgonbu](https://twitter.com/victorgonbu)
 - Linkedin: [linkedin](https://www.linkedin.com/in/victor-manuel-gonzalez-buitrago-8704731a5/)
 
-👤 **PRABHAKAR PANDEY**
+**Samuel Almao**
 
-- Github: [@Prabhakarzx](https://github.com/Prabhakarzx)
-- Twitter: [@Prabhakarzx](https://twitter.com/prabhakarzx)
-- Linkedin: [@Prabhakarzx](https://www.linkedin.com/in/prabhakarzx/)
+- Github: [@SigmaSam](https://github.com/SigmaSam)
+
+👤
 
 [![Run on Repl.it](https://repl.it/badge/github/Prabhakarzx/Ruby-OOP-Project-Game)](https://repl.it/github/Prabhakarzx/Ruby-OOP-Project-Game)
 Milestone 3: Game Logic (In progreess)
