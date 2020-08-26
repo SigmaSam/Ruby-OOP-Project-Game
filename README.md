@@ -13,6 +13,30 @@ In this project, we're required to create a Tic Tac Toe Game using Ruby with OOP
 
 > The main goal of this project is to ensure the mastery of the methods ruby provides and to learn how to replicate them using basic coding knowledge.
 
+## Running the RSpec tests
+[RSpec testing tool](https://rspec.info/) is being used to test all enumerable methods. 
+Detailed documentation about this tool can be found [here](https://relishapp.com/rspec/docs)
+
+## Install
+
+- In a terminal window type `gem install rspec`
+- Once rspec install has finished, type `rspec --init`
+- You will see a folder spec and a file `.rspec`
+- Inside spec folder you'll see a `spec_helper.rb` file.
+
+## Run 
+> For this project we have alredy created 2 files called `board_spec.rb` and `player_spec.rb`. If you want to create another one, make sure you follow name required convetion: `[your file name] _spec.rb`. same way we created the 2 existing ones.
+
+
+- Open `./spec/board_spec.rb` and `./spec/player_spec.rb` file
+- Open a terminal window and type `rspec`
+- If all test were passed you will see:
+
+![image](assets/rspec_screen.PNG)
+
+Else you'll see a red message.
+
+
 ## How to play:
 
 ### Tic Tac Toe game rules:
@@ -79,11 +103,11 @@ If you don't get that result, follow this [link](https://www.ruby-lang.org/en/do
 - Twitter: [@victorgonbu](https://twitter.com/victorgonbu)
 - Linkedin: [linkedin](https://www.linkedin.com/in/victor-manuel-gonzalez-buitrago-8704731a5/)
 
-👤 **PRABHAKAR PANDEY**
+**Samuel Almao**
 
-- Github: [@Prabhakarzx](https://github.com/Prabhakarzx)
-- Twitter: [@Prabhakarzx](https://twitter.com/prabhakarzx)
-- Linkedin: [@Prabhakarzx](https://www.linkedin.com/in/prabhakarzx/)
+- Github: [@SigmaSam](https://github.com/SigmaSam)
+
+👤
 
 [![Run on Repl.it](https://repl.it/badge/github/Prabhakarzx/Ruby-OOP-Project-Game)](https://repl.it/github/Prabhakarzx/Ruby-OOP-Project-Game)
 Milestone 3: Game Logic (In progreess)
