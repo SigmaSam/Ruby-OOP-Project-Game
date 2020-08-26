@@ -19,17 +19,17 @@ Detailed documentation about this tool can be found [here](https://relishapp.com
 
 ## Install
 
-- In a terminal window type gem install rspec
-- Once rspec install has finished, type rspec --init
-- You will see a folder spec and a file .rspec
-- Inside spec folder you'll see a spec_helper.rb file.
+- In a terminal window type `gem install rspec`
+- Once rspec install has finished, type `rspec --init`
+- You will see a folder spec and a file `.rspec`
+- Inside spec folder you'll see a `spec_helper.rb` file.
 
 ## Run 
-> For this project we have alredy created 2 files called board_spec.rb and player_spec.rb. If you want to create another one, make sure you follow name required convetion: [your file name] _spec.rb. same way we created the 2 existing ones.
+> For this project we have alredy created 2 files called `board_spec.rb` and `player_spec.rb`. If you want to create another one, make sure you follow name required convetion: `[your file name] _spec.rb`. same way we created the 2 existing ones.
 
 
-- Open ./spec/main_spec.rb file
-- Open a terminal window and type rspec
+- Open `./spec/board_spec.rb` and `./spec/player_spec.rb` file
+- Open a terminal window and type `rspec`
 - If all test were passed you will see:
 
 ![image](assets/rspec_screen.PNG)
