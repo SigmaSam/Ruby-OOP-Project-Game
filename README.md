@@ -13,11 +13,13 @@ In this project, we're required to create a Tic Tac Toe Game using Ruby with OOP
 
 > The main goal of this project is to ensure the mastery of the methods ruby provides and to learn how to replicate them using basic coding knowledge.
 
+## Running the RSpec tests
+To run the test cases for the methods covered with RSpec, please follow the next steps:
 
-### In order to run the test cases for the methods, Please follow these steps
+- First, make sure the RSpec gem file is installed in your system, use 'RSpec --version' in the command line to check out it's installed. If there is no version of RSpec in your system, you will have to install it with "gem install RSpec" using the command line
 
-- `gem install rspec`
-- Run `rspec` to see your testcases whether they are passed or failed
+- After you make sure RSpec gem is installed in your system, you can run 'RSpec' in the command line to verify all whether or not RSpec tests are being passed.
+
 
 ## How to play:
 
