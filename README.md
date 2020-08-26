@@ -14,11 +14,27 @@ In this project, we're required to create a Tic Tac Toe Game using Ruby with OOP
 > The main goal of this project is to ensure the mastery of the methods ruby provides and to learn how to replicate them using basic coding knowledge.
 
 ## Running the RSpec tests
-To run the test cases for the methods covered with RSpec, please follow the next steps:
+[RSpec testing tool](https://rspec.info/) is being used to test all enumerable methods. 
+Detailed documentation about this tool can be found [here](https://relishapp.com/rspec/docs)
 
-- First, make sure the RSpec gem file is installed in your system, use 'RSpec --version' in the command line to check out it's installed. If there is no version of RSpec in your system, you will have to install it with "gem install RSpec" using the command line
+## Install
 
-- After you make sure RSpec gem is installed in your system, you can run 'RSpec' in the command line to verify all whether or not RSpec tests are being passed.
+- In a terminal window type gem install rspec
+- Once rspec install has finished, type rspec --init
+- You will see a folder spec and a file .rspec
+- Inside spec folder you'll see a spec_helper.rb file.
+
+## Run 
+> For this project we have alredy created 2 files called board_spec.rb and player_spec.rb. If you want to create another one, make sure you follow name required convetion: [your file name] _spec.rb. same way we created the 2 existing ones.
+
+
+- Open ./spec/main_spec.rb file
+- Open a terminal window and type rspec
+- If all test were passed you will see:
+
+![image](assets/rspec_screen.PNG)
+
+Else you'll see a red message.
 
 
 ## How to play:
