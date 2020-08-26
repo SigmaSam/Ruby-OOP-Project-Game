@@ -26,14 +26,18 @@ describe Board do
 
   describe '#validate_turn' do
     context 'Check if position is valid' do
-      it 'return false is position is out of boundaries' do
+      it 'returns false is position is out of boundaries' do
         board.create_board
         expect(board.validate_turn(11)).to be(false)
       end
-      it 'return false if position is alredy taken' do
+      it 'returns false if position is alredy taken' do
         board.create_board
         board.place_symbol(1, player1)
         expect(board.validate_turn(1)).to be(false)
+      end
+      it 'returns true if position is available' do
+        board.create_board
+        expect(board.validate_turn(2)).to be(true)
       end
     end
   end
